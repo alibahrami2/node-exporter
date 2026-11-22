@@ -1,0 +1,6 @@
+---
+- name: Deploy Prometheus Node Exporter
+  hosts: all
+  become: true
+  roles:
+    - role: node_exporter
